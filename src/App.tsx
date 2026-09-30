@@ -70,11 +70,12 @@ export default function App() {
           onClick={() => setClosed(new Set(all.map((q) => q.n)))}
           aria-label="Collapse all"
           title="Collapse all"
-          className="fixed right-4 bottom-4 cursor-pointer rounded-xl border-2 border-line bg-butter p-3 font-bold text-night shadow-brut active:translate-x-0.5 active:translate-y-0.5 active:shadow-none sm:right-6 sm:bottom-6"
+          className="fixed right-4 bottom-4 cursor-pointer rounded-xl border-2 border-line bg-butter p-[9px] font-bold text-night shadow-brut active:translate-x-0.5 active:translate-y-0.5 active:shadow-none sm:right-6 sm:bottom-6"
         >
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <path d="m7 4 5 5 5-5" />
-            <path d="m7 20 5-5 5 5" />
+          <svg className="overflow-visible" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="m7 1 5 4 5-4" />
+            <path d="M5 12h14" />
+            <path d="m7 23 5-4 5 4" />
           </svg>
         </button>
       )}
