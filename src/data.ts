@@ -119,6 +119,26 @@ export const topics: Topic[] = [
         ],
       },
       {
+        title: 'What is a bond?',
+        questions: [
+          {
+            n: 8,
+            q: 'What is a bond?',
+            a: 'A bond is a loan you make to a government or company, packaged as something you can hold and sell. They promise to pay you back at a set date, plus interest.\n\nThe parts:\n• Face value (par): the amount repaid at the end, e.g. $100.\n• Coupon: the interest, as a % of face value. A one-year $100 bond with a 5% coupon pays back $105: $100 principal plus $5 interest.\n• Maturity: the repayment date. Government bonds typically run 1 to 30 years. US Treasury savings bonds (a related retail product) mature in 20-30 years.\n\nPrice and yield move in opposite directions. Bonds trade after issue. If you will only pay $98 for that $100 bond, your return is 7.1%, not 5%. If market rates fall, the same bond trades above par ($101.95 in the IMF example at a 3% yield). Rates up means price down; rates down means price up.\n\nWhy it matters here: when the Fed does QE (asked #4), the "securities" it buys are mostly these bonds.\n\nNote: I could only read the IMF article through search excerpts (the page blocked direct access). The numbers above are from those excerpts.',
+            sources: [
+              {
+                label: 'IMF Finance & Development, Back to Basics: Bonds and Yields',
+                url: 'https://www.imf.org/en/publications/fandd/issues/2025/03/back-to-basics-bonds-and-yields-s-ali-abbas',
+              },
+              {
+                label: 'Treasury FiscalData, Treasury Savings Bonds Explained',
+                url: 'https://fiscaldata.treasury.gov/treasury-savings-bonds/',
+              },
+            ],
+          },
+        ],
+      },
+      {
         title: 'Is electronic money the problem?',
         questions: [
           {
